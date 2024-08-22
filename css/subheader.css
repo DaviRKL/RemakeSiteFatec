@@ -1,0 +1,18 @@
+.subHeader {
+    height: 25px;
+    background: linear-gradient(to bottom, #668, #666);
+
+
+    p {
+        font-family: "Share Tech Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        width: 95%;
+        color: #fff;
+        text-align: left;
+        margin-left: 110px;
+        margin-top: auto;
+        min-width: 769px;
+        max-width: 1035px;
+    }
+}

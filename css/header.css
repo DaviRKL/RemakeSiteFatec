@@ -1,0 +1,73 @@
+.header {
+    background: linear-gradient(to bottom, #dc143c, #c60808);
+    
+    height: 54px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .linkHeader {
+        color: #ffffff;
+        position: relative;
+        border-radius: 0.3em;
+        padding: 0.1em 0.5em 0.0em 0.5em;
+        text-decoration: none;
+        border: 0.05em solid #990000;
+        text-shadow: 1px 0px 2px rgba(150, 150, 150, 1);
+        border: none;
+        margin-left: 40px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font: 1.1em 'Open Sans Condensed', sans-serif;
+        font-style: normal;
+    }
+    .linkHeader:hover {
+        background-color: #990000;
+    }
+    @media (max-width: 1200px) {
+        .linkHeader{
+            display: none;
+        }
+
+        .fa-bars{
+            display: inline;
+            font-size: 40px;
+            color: whitesmoke;
+            margin-right: 20px;
+            cursor: pointer;
+            
+        }
+        .fa-bars:hover{
+            transition:  0.3s ease;
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+
+
+.hambuguer {
+    font-size: 40px;
+    color: whitesmoke;
+    margin-right: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1001; /* Garante que o ícone fique sobre a sidebar */
+}
+
+.fa-bars{
+    display: none;
+}
+
+
+
+.FatecLogo {
+    height: 40px;
+    width: 144px;
+    margin-left: 110px;
+    margin-top: 5px;
+}
