@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/Navbar.js"></script>
 </head>
 <body>
     <div class="header">
@@ -20,7 +21,17 @@
             <a class="linkHeader">Bibliotecas</a>
             <a class="linkHeader">Vestibular</a>
             <a class="linkHeader">Alunos</a>
-            <i class="fa fa-bars hambuguer"></i>
+            <i class="fa fa-bars hambuguer" onclick="toogleSidebar()"></i>
+    </div>
+    <div id="sidebar" class="sidebar">
+        <ul>
+            <li><a class="linkHeader">A fatec</a></li>
+            <li><a class="linkHeader">Cursos</a></li>
+            <li><a class="linkHeader">Diretorias</a></li>
+            <li><a class="linkHeader">Bibliotecas</a></li>
+            <li><a class="linkHeader">Vestibular</a></li>
+            <li><a class="linkHeader">Alunos</a></li>
+        </ul>
     </div>
     <div class="subHeader"><p>Faculdade de tecnologia José Crespo Gonzolez</p></div>
 </body>
